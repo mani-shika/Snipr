@@ -1,0 +1,25 @@
+# Compiled output
+target/
+*.class
+
+# H2 database files -- this is YOUR local data, not code.
+# Never commit a database file; everyone who clones the repo
+# should start with a fresh, empty DB.
+data/
+
+# IDE-specific files
+.vscode/
+.idea/
+*.iml
+
+# Maven wrapper jar (optional to ignore -- some teams commit this, some don't;
+# ignoring it here keeps the repo lean, mvnw scripts still work by
+# downloading it fresh)
+.mvn/wrapper/maven-wrapper.jar
+
+# OS-specific junk
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
